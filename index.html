@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MCQ</title>
+
+</head>
+
+<body onload="loadData()">
+    <div id="container">
+        <form action="">
+
+            <div id="questionInHtml"></div>
+            <div>
+                <input type="radio" name="htmlOption" id="options1"><label id='choice1'></label>
+                <input type="radio" name="htmlOption" id="options2"><label id='choice2'></label>
+                <input type="radio" name="htmlOption" id="options3"><label id='choice3'></label>
+                <input type="radio" name="htmlOption" id="options4"><label id='choice4'></label>
+            </div>
+            <div>
+                <input type="button" value="Next" onclick="checkAnswer()">
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
